@@ -6,7 +6,6 @@ zuul:
     visits-service: /visit/**
     customers-service:
       path: /customer/**
-      url: http://customers-service:8081
     api-gateway: /gateway/**
 
 server:
