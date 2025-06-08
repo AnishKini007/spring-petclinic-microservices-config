@@ -31,3 +31,8 @@ management:
   zipkin:
     tracing:
       endpoint: http://tracing-server:9411/api/v2/spans
+
+logging:
+  level:
+    org.springframework.cloud.netflix.zuul: DEBUG
+    org.springframework.web: DEBUG
