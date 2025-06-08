@@ -6,7 +6,7 @@ zuul:
     visits-service: /visit/**
     customers-service:
       path: /customer/**
-      stripPrefix: false
+      stripPrefix: true
     api-gateway: /gateway/**
 
 server:
