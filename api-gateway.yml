@@ -5,7 +5,8 @@ zuul:
     vets-service: /vet/**
     visits-service: /visit/**
     customers-service:
-      path: /customer/owners
+      path: /customer/**
+      stripPrefix: true
     api-gateway: /gateway/**
 
 server:
